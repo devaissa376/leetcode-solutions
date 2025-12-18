@@ -12,9 +12,9 @@ class Solution(object):
         num = 0
         num49 = 0
 
-        roman_49_KEY = {"IV": 4, "IX": 9, "XL": 40, "XC": 90, "CD": 400, "CM": 900}
-        roman_49_INST = {"IV": 0, "IX": 0, "XL": 0, "XC": 0, "CD": 0, "CM": 0}
-        roman_49_NUM = {"IV": 0, "IX": 0, "XL": 0, "XC": 0, "CD": 0, "CM": 0}
+        roman49KEY = {"IV": 4, "IX": 9, "XL": 40, "XC": 90, "CD": 400, "CM": 900}
+        roman49INST = {"IV": 0, "IX": 0, "XL": 0, "XC": 0, "CD": 0, "CM": 0}
+        roman49NUM = {"IV": 0, "IX": 0, "XL": 0, "XC": 0, "CD": 0, "CM": 0}
 
         ALL49 = "IVIXXLXCCDCM"
         newS = s
