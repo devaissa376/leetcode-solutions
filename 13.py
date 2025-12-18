@@ -24,7 +24,7 @@ class Solution(object):
             for i in range(len(s) - 1):
                 roman49 = s[i] + s[i + 1]
 
-                if roman49 in ("IV", "itIX", "XL", "XC", "CD", "CM"):
+                if roman49 in ("IV", "IX", "XL", "XC", "CD", "CM"):
                     roman49INST[roman49] += 1
                     newS = newS.replace(roman49, "")
 
